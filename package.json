@@ -1,6 +1,6 @@
 {
-  "name": "@umijs/plugin-electron",
-  "version": "0.2.2",
+  "name": "@umax-admin/umi-plugin-electron",
+  "version": "0.0.1",
   "description": "@umijs/plugin-electron",
   "main": "dist/cjs/index.js",
   "types": "./typing.d.ts",
@@ -13,21 +13,15 @@
     "src",
     "typing.d.ts"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xiefengnian/umijs-electron-plugin.git"
-  },
+
   "keywords": [
     "umi",
     "electron",
     "umi plugin"
   ],
-  "authors": [
-    "xiefengnian <xieniangao@126.com> (https://github.com/xiefengnian)"
-  ],
+
   "license": "MIT",
-  "bugs": "https://github.com/xiefengnian/issues",
-  "homepage": "https://github.com/xiefengnian/umijs-electron-plugin.git",
+
   "peerDependencies": {
     "electron": "*",
     "electron-builder": "*",

@@ -6,13 +6,13 @@
 Using npm:
 
 ```bash
-$ npm install --save-dev @umijs/plugin-electron
+$ npm install --save-dev @umax-admin/umi-plugin-electron
 ```
 
 or using yarn:
 
 ```bash
-$ yarn add @umijs/plugin-electron --dev
+$ yarn add @umax-admin/umi-plugin-electron --dev
 ```
 
 ## 使用 Usage
@@ -34,7 +34,7 @@ electron-builder-binaries-mirror=https://registry.npmmirror.com/-/binary/electro
 
 ```ts
 {
-  plugins : ['@umijs/plugin-electron'],
+  plugins : ['@umax-admin/umi-plugin-electron'],
   electron :{},
 }
 ```
